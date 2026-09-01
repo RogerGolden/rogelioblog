@@ -1,0 +1,12 @@
+---
+layout: base.html
+---
+
+<article>
+  <header>
+    <h1>{{ title }}</h1>
+    <time>{{ date | date("dd LLL yyyy") }}</time>
+  </header>
+
+  {{ content | safe }}
+</article>

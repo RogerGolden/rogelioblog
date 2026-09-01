@@ -1,0 +1,13 @@
+---
+title: Rogelio Blog
+layout: base.html
+---
+
+<ul class="lista-posts">
+{% for post in collections.posts %}
+  <li class="post-item">
+    <a href="{{ post.url }}" class="post-titulo">{{ post.data.title }}</a>
+    <time>{{ post.date | date("dd LLL yyyy") }}</time>
+  </li>
+{% endfor %}
+</ul>
