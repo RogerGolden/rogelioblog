@@ -111,3 +111,21 @@ time {
   color: var(--color-acento);
   text-decoration: none;
 }
+
+.footnotes {
+  display: none;
+}
+
+.sidenote {
+  position: absolute;
+  right: -280px;
+  width: 240px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--color-texto-suave);
+  font-style: italic;
+}
+
+article {
+  position: relative;
+}

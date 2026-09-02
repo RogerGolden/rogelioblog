@@ -13,6 +13,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "github:11ty/eleventy",
-    "luxon": "^3.7.2"
+    "luxon": "^3.7.2",
+    "markdown-it-footnote": "^4.0.0",
+    "tufte-css": "^1.9.0"
   }
 }
